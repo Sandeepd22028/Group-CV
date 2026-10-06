@@ -1,0 +1,13 @@
+dataset,split,model,r2_mean,r2_std
+r1 relaxivity (MRI T1),shuffled_kfold (leaky),RandomForest,0.732,0.036
+r1 relaxivity (MRI T1),shuffled_kfold (leaky),HistGradientBoosting,0.715,0.039
+r1 relaxivity (MRI T1),groupkfold_by_composition (honest),RandomForest,0.272,0.279
+r1 relaxivity (MRI T1),groupkfold_by_composition (honest),HistGradientBoosting,0.265,0.304
+r2 relaxivity (MRI T2),shuffled_kfold (leaky),RandomForest,0.691,0.032
+r2 relaxivity (MRI T2),shuffled_kfold (leaky),HistGradientBoosting,0.69,0.044
+r2 relaxivity (MRI T2),groupkfold_by_composition (honest),RandomForest,0.325,0.245
+r2 relaxivity (MRI T2),groupkfold_by_composition (honest),HistGradientBoosting,0.386,0.089
+SAR (hyperthermia),shuffled_kfold (leaky),RandomForest,0.868,0.052
+SAR (hyperthermia),shuffled_kfold (leaky),HistGradientBoosting,0.88,0.049
+SAR (hyperthermia),groupkfold_by_composition (honest),RandomForest,0.061,0.694
+SAR (hyperthermia),groupkfold_by_composition (honest),HistGradientBoosting,0.196,0.357

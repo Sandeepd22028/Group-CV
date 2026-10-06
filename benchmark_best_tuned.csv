@@ -1,0 +1,6 @@
+target,best_model,r2_mean,r2_std
+Exchange Bias,RandomForest_deep,0.392,0.064
+Coercivity,HGB_default,0.468,0.03
+Saturation Magnetization,ExtraTrees,0.573,0.149
+Curie Temperature,HGB_regularized,0.672,0.083
+Remanence,HGB_default,0.63,0.089
